@@ -1,0 +1,14 @@
+[
+  "test.py::test_show_all",
+  "test.py::test_show_id_1",
+  "test.py::test_show_id_2",
+  "test.py::test_show_id_3",
+  "test.py::test_add_1",
+  "test.py::test_add_2",
+  "test.py::test_add_3",
+  "test.py::test_add_4",
+  "test.py::test_delete_1",
+  "test.py::test_delete_2",
+  "test.py::test_delete_3",
+  "test.py::test_check_delete"
+]
