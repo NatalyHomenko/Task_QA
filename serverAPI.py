@@ -20,5 +20,5 @@ class ServerAPI:
         return r
 
     def delete(self, id):
-        r = requests.delete('http://qainterview.cogniance.com/candidates/' + str(id))
+        r = requests.delete('http://qainterview.cogniance.com/candidates/' + str('name') + str('position'))
         return r

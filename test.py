@@ -69,7 +69,6 @@ def test_add_4():
     assert failed == actual.status_code
 
 
-#  Delete
 
 def test_delete_1():
     url = ServerAPI()
@@ -85,4 +84,8 @@ def test_delete_3():
     url = ServerAPI()
     assert success != url.delete('').status_code
 
-
+def check_add():
+    url = ServerAPI()
+    countBefr = testHelper.count_all(url.showAll().text)
+    countAftr = testHelper.count_all(url.text)[0]
+    assert countBefr != countAftr

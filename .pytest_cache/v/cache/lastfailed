@@ -1,1 +1,5 @@
-{}
+{
+  "test.py::test_Verif": true,
+  "test.py::test_Verif_1": true,
+  "test.py::test_Verif_2": true
+}

@@ -9,6 +9,5 @@
   "test.py::test_add_4",
   "test.py::test_delete_1",
   "test.py::test_delete_2",
-  "test.py::test_delete_3",
-  "test.py::test_check_delete"
+  "test.py::test_delete_3"
 ]
